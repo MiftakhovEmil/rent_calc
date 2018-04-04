@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import main.rentCalc;
 
-public class Test_1 
+public class Test_2 
 {
 
 	@Test
@@ -24,7 +24,7 @@ public class Test_1
 		assertEquals(20, t0.total_houseHeating);
 		assertEquals(30, t0.total_hotWater);
 		assertEquals(40, t0.total_coldWater);
-		assertEquals(100, t0.total_houseElectricity);
+		assertEquals(1000, t0.total_houseElectricity);
 
 	}
 }
