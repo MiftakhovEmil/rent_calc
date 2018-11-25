@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class rent
 {
     public static void main(String[] args) {
-    	
+    	 
         // тарифы
         double heating = 0;
         double water_hot = 0;
@@ -24,7 +24,7 @@ public class rent
         
         Scanner inpt = new Scanner(System.in); // класс для ввода информации
         inpt.useLocale(Locale.ENGLISH); // ввод точки вместо запятой для вещественных чисел
-        
+         
         try
         {
         	//Ввод тарифов
